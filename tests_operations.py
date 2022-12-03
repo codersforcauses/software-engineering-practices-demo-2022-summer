@@ -1,4 +1,4 @@
-# from operations import addition, subtraction, multiplication, division, exponentiation, modulo
+from operations import addition, subtraction, multiplication, division, exponentiation, modulo
 
 
 def test_addition():
@@ -63,6 +63,5 @@ def test_modulo():
     WHEN:  passed in to the function modulo
     THEN:  the resulting is the modulo of the two number
     """
-    assert modulo(8,2) == 0
+    assert modulo(8, 2) == 0
     assert modulo(9, 2) == 1
-
