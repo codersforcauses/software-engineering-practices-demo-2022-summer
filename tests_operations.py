@@ -16,7 +16,9 @@ def test_subtraction():
     WHEN:  passed in to the function subtraction
     THEN:  the resulting is the subtraction of the two numbers
     """
-    pass
+    assert subtraction(7, 3) == 4
+    assert subtraction(0, 0) == 0
+    assert subtraction(2, 5) == -3
 
 
 def test_multiplication():
