@@ -1,5 +1,6 @@
 from operations import addition, subtraction, multiplication, division, exponentiation, modulo
 
+
 def test_addition():
     """
     GIVEN: Two numbers
