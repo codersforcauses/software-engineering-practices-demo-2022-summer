@@ -1,4 +1,5 @@
-import multiplication
+# from operations import addition, subtraction, multiplication, division, exponentiation, modulo
+from operations import addition, multiplication, exponentiation
 
 
 def test_addition():
@@ -7,7 +8,10 @@ def test_addition():
     WHEN:  passed in to the function addition
     THEN:  the resulting is the addition of the two numbers
     """
-    pass
+    assert addition(1, 2) == 3
+    assert addition(0, 1) == 1
+    assert addition(100, 23) == 123
+    # pass
 
 
 def test_subtraction():
