@@ -18,7 +18,8 @@ def subtraction(num1, num2):
     Imagine that you are building a very complex function, and you want to be able to
     work with multiple people.
     """
-    pass
+    result = num1 - num2
+    return result
 
 
 def multiplication(num1, num2):
