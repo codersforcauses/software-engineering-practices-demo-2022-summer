@@ -20,12 +20,13 @@ def test_subtraction():
 
 
 def test_multiplication():
+    import multiplication
+    assert multiplication(num1,num2) == sum(num1,num2)
     """
     GIVEN: Two numbers
     WHEN:  passed in to the function multiplication
     THEN:  the resulting is the multiplication of the two numbers
     """
-    pass
 
 
 def test_division():
