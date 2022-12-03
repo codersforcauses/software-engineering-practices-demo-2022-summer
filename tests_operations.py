@@ -1,4 +1,4 @@
-import addition, subtraction, multiplication, division, exponentiation, modulo
+import multiplication
 
 
 def test_addition():
