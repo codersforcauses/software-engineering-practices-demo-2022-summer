@@ -33,6 +33,8 @@ def multiplication(num1, num2):
 
 
 def division(num1, num2):
+
+    return (num1/num2)
     """
     This function will perform a division operation on num1 by num2
 
@@ -40,7 +42,7 @@ def division(num1, num2):
     Imagine that you are building a very complex function, and you want to be able to
     work with multiple people.
     """
-    pass
+    pass 
 
 
 def exponentiation(num1, num2):
