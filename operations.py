@@ -9,6 +9,7 @@ def addition(num1, num2):
     # Add code here
     pass
 
+
 def subtraction(num1, num2):
     """
     This function will perform a subtraction operation on num1 by num2
@@ -18,6 +19,7 @@ def subtraction(num1, num2):
     work with multiple people.
     """
     pass
+
 
 def multiplication(num1, num2):
     """
@@ -40,6 +42,7 @@ def division(num1, num2):
     """
     pass
 
+
 def exponentiation(num1, num2):
     """
     This function will perform a exponentiation operation on num1 by num2
@@ -49,6 +52,7 @@ def exponentiation(num1, num2):
     work with multiple people.
     """
     pass
+
 
 def modulo(num1, num2):
     """

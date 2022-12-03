@@ -1,4 +1,4 @@
-from main import perform_operation_with_two_nums
+# from main import perform_operation_with_two_nums
 
 
 def test_perform_operation_with_two_nums():
