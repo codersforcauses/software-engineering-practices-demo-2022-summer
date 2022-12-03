@@ -53,7 +53,9 @@ def test_exponentiation():
     WHEN:  passed in to the function exponentiation
     THEN:  the resulting is the exponentiation of the two number
     """
-    pass
+    assert exponentiation(2, 5) == 32
+    assert exponentiation(3, 3) == 27
+    assert exponentiation(4, 1) == 4
 
 def test_modulo():
     """
