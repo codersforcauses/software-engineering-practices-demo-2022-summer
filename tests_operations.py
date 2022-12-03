@@ -1,4 +1,5 @@
 # from operations import addition, subtraction, multiplication, division, exponentiation, modulo
+from operations import division
 
 
 def test_addition():
@@ -34,7 +35,8 @@ def test_division():
     WHEN:  passed in to the function division
     THEN:  the resulting is the division of the two number
     """
-    pass
+    assert division(8, 4) == 2
+    assert division(3, 3) == 1
 
 
 def test_division_exception_on_zero():
