@@ -11,7 +11,7 @@ def test_addition():
     assert addition(1, 2) == 3
     assert addition(0, 1) == 1
     assert addition(100, 23) == 123
-    pass
+    # pass
 
 
 def test_subtraction():
