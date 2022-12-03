@@ -10,13 +10,6 @@ on:
         default: "warning"
 
 jobs:
-  test_github_action:
-    name: "Just testing"
-    runs-on: ubuntu-latest
-    steps:
-      - name: "List directory structure"
-        run: ls
-  
   flake8_py3:
     name: "Linting with Flake8"
     runs-on: ubuntu-latest
