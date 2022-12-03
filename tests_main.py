@@ -1,3 +1,4 @@
+# noqa
 from main import perform_operation_with_two_nums
 
 
