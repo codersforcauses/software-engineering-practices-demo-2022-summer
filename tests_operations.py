@@ -1,16 +1,15 @@
-from operations import addition, subtraction, multiplication, division, exponentiation, modulo
-
+# from operations import addition, subtraction, multiplication, division, exponentiation, modulo
+from operations import addition
 
 def test_addition():
-    
     """
     GIVEN: Two numbers
     WHEN:  passed in to the function addition
     THEN:  the resulting is the addition of the two numbers
     """
-    assert addition(1,2) == 3
-    assert addition(0,1) == 1
-    assert addition(100,23) == 123
+    assert addition(1, 2) == 3
+    assert addition(0, 1) == 1
+    assert addition(100, 23) == 123
     pass
 
 
