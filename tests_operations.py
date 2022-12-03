@@ -1,4 +1,4 @@
-# from operations import addition, subtraction, multiplication, division, exponentiation, modulo
+import multiplication
 
 
 def test_addition():
@@ -20,12 +20,14 @@ def test_subtraction():
 
 
 def test_multiplication():
+    assert multiplication(3, 5) == (15)
+    assert multiplication(0, 4) == (0)
+    assert multiplication(1, -7) == (-7)
     """
     GIVEN: Two numbers
     WHEN:  passed in to the function multiplication
     THEN:  the resulting is the multiplication of the two numbers
     """
-    pass
 
 
 def test_division():
