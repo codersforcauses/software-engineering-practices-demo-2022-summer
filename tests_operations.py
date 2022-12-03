@@ -1,4 +1,4 @@
-# from operations import addition, subtraction, multiplication, division, exponentiation, modulo
+from operations import addition, subtraction, multiplication, division, exponentiation, modulo
 
 def test_addition():
     """
