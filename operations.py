@@ -40,7 +40,7 @@ def division(num1, num2):
     Imagine that you are building a very complex function, and you want to be able to
     work with multiple people.
     """
-    pass
+    return (num1/num2)
 
 
 def exponentiation(num1, num2):
